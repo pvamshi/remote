@@ -1,0 +1,7 @@
+{{path}}
+<ul>
+	<li ng-repeat="file in files" ng-show="validate(file)" >
+		<a 	ng-href ng-click="deeper(file)" >{{file.name}}</a>
+		<span ng-show="!file.dir && playing"><a ng-href ng-click="player.down()">down</a> <a ng-href ng-click="player.up()">up</a> <a ng-href ng-click="player.fullscreen()">fullscreen</a> <a ng-href ng-click="player.pause()">pause</a> <a ng-href ng-click="player.stop()">stop</a></span>
+	</li>
+</ul>
