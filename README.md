@@ -1,5 +1,6 @@
 remote
 ======
+Trying out to play mplayer remotely from other computer or mobile
 
 1. clone this repo
 
